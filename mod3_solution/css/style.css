@@ -1,0 +1,156 @@
+body{
+  background-color: linen;
+}
+
+#header-nav{
+  background-color: black;
+}
+
+.navbar-brand a{
+  position: relative;
+  font-size: 25px;
+  float:left;
+  color: linen;
+  left:-45px;
+}
+
+.navbar-brand a:hover{
+  text-decoration: none;
+}
+
+h1{
+  text-align: center;
+}
+
+.navbar-toggle{
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border-radius: 2px;
+  border: 1px solid red;
+  transition: background .5s;
+  right: -65px;
+}
+.navbar-toggle:hover{
+  background-color: linen;
+}
+
+.navbar-toggle:focus{
+  outline: 0;
+  background-color: linen;
+}
+
+.navbar-toggle > span{
+  margin-top: 5px;
+       margin-left: 0px;
+       display:list-item;
+       width: 30px;
+       height: 5px;
+       background: red;
+       text-decoration: none;
+       cursor: pointer;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #333;
+  margin-bottom:5px;
+}
+
+li > a{
+  color: linen;
+}
+
+li > a:hover{
+  color:linen;
+  text-decoration: none;
+}
+
+li > a:focus{
+  outline: 0;
+  background-color: none;
+  color:linen;
+  text-decoration: none;
+}
+
+@media (min-width: 768px){
+  .navbar-toggle{
+    display: none;
+  }
+}
+
+@media (max-width:320px){
+  .navbar-toggle{
+    display: none;
+  }
+}
+
+.row{
+margin:20px;
+
+}
+
+.box1{
+  position: relative;
+  margin-bottom: 20px;
+  top: 20px;
+  background-color: gray;
+  height: 1000px;
+}
+.box1 > h3 {
+  text-align: center;
+}
+
+.box1 > p{
+  position: absolute;
+  top:50px;
+  text-align: justify;
+  padding-right: 10px;
+}
+
+.box2{
+  position: relative;
+  margin-bottom: 20px;
+  top: 20px;
+  background-color: gray;
+  height: 1000px;
+}
+.box2 > h3 {
+  text-align: center;
+}
+
+.box2 > p{
+  padding-right: 10px;
+  position: absolute;
+  top:50px;
+  text-align: justify;
+}
+
+.box3{
+  position: relative;
+  margin-bottom: 20px;
+  top: 20px;
+  background-color: gray;
+  height: 1000px;
+}
+.box3 > h3 {
+  text-align: center;
+}
+
+.box3 > p{
+  padding-right: 10px;
+  position: absolute;
+  top:50px;
+  text-align: justify;
+}
+
+@media (max-width:768px) {
+.row{
+  margin:50px;
+}
+}
