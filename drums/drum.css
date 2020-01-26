@@ -1,0 +1,54 @@
+.drum1 {
+    background-image: url("3.jpg");
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.dr1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:wheat;
+    font-weight: bolder;
+    text-align: center; 
+}
+.money1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+    color: wheat;
+}
+.drum2 {
+    background-image: url("3.jpg");
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.dr2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: wheat;
+    font-weight: bolder;
+    text-align: center; 
+}
+.money2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+    color: wheat;
+}
+.drum3 {
+    background-image: url("3.jpg");
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.dr3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: wheat;
+    font-weight: bolder;
+    text-align: center;
+}
+.money3 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+    color: wheat;
+}
