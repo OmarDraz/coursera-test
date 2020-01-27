@@ -1,0 +1,672 @@
+body{
+    background-color:black;
+    background-image: url("7.jpg");
+    background-size: unset;
+}
+
+.bgbox{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 140px;
+  background-color: black;
+  top: 0;
+  left:0;
+  z-index: -1;
+}
+
+.navbar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 1s;
+}
+
+.navbarimg{
+    background-image: url('darkstone.jpg');
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    left:0;
+    top: 0px;
+    opacity: 0.6;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.navbar h1{
+    display: flex;
+    justify-content: center;
+    color: #990000;
+    z-index: 2;
+    position: relative;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 72px;
+    top: -40px;
+    text-shadow: 7px 1px 3px #222;
+}
+
+.icon {
+    position: relative;
+    top:0px;
+    color:#990000;
+    font-weight: bolder;
+    text-shadow: 7px 1px 3px #222;
+}
+
+
+/*ANIMATION SLIDER START*/
+#slider{
+  margin-top: -70px;
+    display: block;
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 220px;
+    left: 9.5%;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px #000;
+    }
+#slider figure {
+    position: relative;
+    width: 400%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}   
+#slider figure img {
+  display: inline-block;
+    width: 25%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {left: 0;}
+    25%{left: 0;}
+    35%{left:-100%;}
+    55%{left:-100%;}
+    65%{left:-200%;}
+    80%{left:-200%;}
+    90%{left:-300%;}
+    100%{left:-300%;}
+}
+/*ANIMATION SLIDER END*/
+
+
+/*Our OFFERS*/
+.new {
+  box-sizing: border-box;
+  background-image: url("3.jpg");
+  width: 350px;
+  border-radius: 10px;
+  margin: 50px;
+  box-shadow: 5px 5px 5px #000;
+}
+.arrivals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+#img {
+  width: 350px;
+}
+.type {
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:wheat;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+
+}
+
+.new2 {
+  box-sizing: border-box;
+  background-image: url("3.jpg");
+  width: 350px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 50px;
+  box-shadow: 5px 5px 5px #000;
+
+}
+.arrivals2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#img2 {
+  width: 350px;
+}
+.type2 {
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:wheat;
+  text-align: center;
+  margin-top: 25px;
+  text-shadow: 2px 2px 2px #000;
+}
+.new3 {
+  box-sizing: border-box;
+  background-image: url("3.jpg");
+  width: 350px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 50px;
+  box-shadow: 5px 5px 5px #000;
+
+}
+.arrivals3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2px;
+}
+#img3 {
+  width: 350px;
+}
+.type3{
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: wheat;
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 2px 2px 2px #000;
+
+}
+.box {
+  display: flex;
+  margin: auto;
+  margin-left: 70px;
+  margin-top: 430px;
+}
+/*OUR OFFERS END*/
+
+.violins-models{
+  display: flex;
+  margin: auto;
+  margin-left: 225px;
+  margin-top: 0px;
+  width: 40px;
+  height: auto;
+}
+
+.first {
+  box-sizing: border-box;
+  background-image: url("3.jpg");
+  width: 350px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 50px;
+  box-shadow: 5px 5px 5px #000;
+}
+
+.first img{
+    width: 250px;
+    height: 300px;
+    margin-top: 0;
+
+}
+.Vtype h4 {
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  margin-top: 0px;
+  text-shadow: 2px 2px 2px #000;
+}
+.Vtype .price {
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  position: relative;
+  top:-10px;
+}
+ .fa-star {
+   position: relative;
+   top:-15px;
+   color: gold;
+ }
+
+ /*second violin card*/
+ .second {
+  box-sizing: border-box;
+  background-image: url("3.jpg");
+  width: 350px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 50px;
+  box-shadow: 5px 5px 5px #000;
+}
+.second img{
+  width: 250px;
+  height: 300px;
+  margin-top: 0;
+}
+
+.Vtype2 h4 {
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  margin-top: 0px;
+  text-shadow: 2px 2px 2px #000;
+}
+.Vtype2 .price {
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  position: relative;
+  top:-10px;
+}
+
+/*third violin card*/
+
+.third {
+  box-sizing: border-box;
+  background-image: url("3.jpg");
+  width: 350px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 50px;
+  box-shadow: 5px 5px 5px #000;
+}
+.third img{
+  width: 250px;
+  height: 300px;
+  margin-top: 0;
+}
+
+.Vtype3 h4 {
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  margin-top: 0px;
+  text-shadow: 2px 2px 2px #000;
+}
+.Vtype3 .price {
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  position: relative;
+  top:-10px;
+}
+ .fa-star-half{
+  position: relative;
+  top:-15px;
+  color: gold;
+ }
+
+ /*PARALLAX 1*/
+ .parallax {
+  min-height: 400px;
+  background: transparent;
+  z-index: 1;
+  width:100%;
+  background: ;
+  transition: .5s;
+}
+
+.inst{
+  font-family: harrington;
+  font-size: 50px;
+  color: wheat;
+  width: 160px;
+  margin-top: 60px;
+  margin-left: 45%;
+  text-shadow: 10px 5px 8px #000;
+  border-bottom: 10px double #990000 ;
+  }
+
+
+ /*PARALLAX 2*/
+ .parallax2 {
+  min-height: 450px;
+  background: transparent;
+  z-index: 1;
+  width:100%;
+  background: ;
+  transition: .5s;
+}
+
+
+/*Guitars*/
+.content1 {
+  display: flex;
+  margin: auto;
+  margin-left: 125px;
+  margin-top: 0px;
+  width: 40px;
+  height: auto;
+}
+.title {
+  font-family: harrington;
+  font-size: 50px;
+  color: wheat;
+  width: 160px;
+  margin-top: 60px;
+  margin-left: 45%;
+  text-shadow: 10px 5px 8px #000;
+  border-bottom: 10px double #990000 ;
+}
+.inst1 {
+background-image: url(3.jpg);
+width: 300px;
+height: 300px;
+box-sizing: border-box;
+border-radius: 10px;
+margin: 60px;
+}
+.pic1 {
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  margin-top: 0px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.price1{
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  position: relative;
+  
+  
+}
+.inst2{
+  background-image: url(3.jpg);
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 60px;
+}
+.pic2 {
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  margin-top: 0px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.price2 {
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  position: relative;
+  margin-top: -12px;
+  
+}
+.inst3 {
+  background-image: url("3.jpg");
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 60px;
+}
+.pic3 {
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  margin-top: 0px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.price3 {
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  position: relative;
+  margin-top: -12px;
+}
+
+.guitars-rate{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.guitars-rate2{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+/*PARALLAX 3*/
+.parallax3 {
+  min-height: 400px;
+  background: transparent;
+  z-index: 1;
+  width:100%;
+  background: ;
+  transition: .5s;
+}
+
+
+/*Drums*/
+.drum1 {
+  background-image: url("3.jpg");
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 60px;
+
+}
+.dr1 {
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  margin-top: 0px;
+  text-shadow: 2px 2px 2px #000; 
+  
+}
+.money1 {
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  position: relative;
+  margin-top: -12px;
+}
+.fa-star {
+  position: relative;
+  color: gold;
+}    
+.drum2 {
+  background-image: url("3.jpg");
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 60px;
+}
+.dr2 {
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  margin-top: 0px;
+  text-shadow: 2px 2px 2px #000;
+}
+.money2 {
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  position: relative;
+  margin-top: -12px;
+}
+.drum3 {
+  background-image: url("3.jpg");
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 60px;
+}
+.dr3 {
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  margin-top: 0px;
+  text-shadow: 2px 2px 2px #000;
+}
+.money3 {
+  font-size: 20px;
+  font-family: Harrington;
+  color: wheat;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  position: relative;
+  margin-top: -12px;
+}
+.main {
+  display: flex;
+  margin-left: 120px;
+  
+}
+
+
+
+  /*FOOTER*/
+
+  footer img {
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: 0;
+  }
+
+  footer .footerimg{
+    background-image: url("3.jpg") ;
+    background-size: cover;
+    overflow: hidden;
+    width: 101%;
+    height: 750px;
+    display: inline-block;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    text-shadow: 1px 1px 1px #000;
+  }
+
+  .footerimg h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #990000;
+    font-family: harrington;
+    font-size: 100px;
+    margin-top: 80px;
+    text-shadow: 0px 10px 8px #000;
+
+  }
+
+  .socicons {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: -10px;
+    text-shadow: 1px 5px 3px #000;
+  }
+
+  .fa-youtube {
+    color: wheat;
+    margin: 10px;
+    transition: .5s;
+  }
+
+   .fa-youtube:hover{
+     color: #FF0000;
+   }
+
+  .fa-facebook-f {
+    color: wheat;
+    margin: 10px;
+    transition: .5s;
+  }
+
+  .fa-facebook-f:hover{
+    color: #3b5998;
+  }
+
+  .fa-twitter {
+    color: wheat;
+    margin: 10px;
+    transition: .5s;
+  }
+
+  .fa-twitter:hover {
+    color: #00ACEE;
+  }
+
+  .fa-instagram {
+    color: wheat;
+    margin: 10px;
+    transition: .5s;
+  }
+
+  .fa-instagram:hover{
+    color: hsl(194.8, 51.7%, 29.2%);
+  }
+
+  .contact{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20%;
+    text-shadow: 0px 8px 10px #000;
+  }
+
+  .contact h4 {
+    color: wheat;
+    font-family: harrington;
+    font-size: 30px;
+    margin: 10%;
+  }
+
+  .num{
+    margin-top: 150px;
+    margin-left: -76%;
+  }
+
+  .num p{
+    color: wheat;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 10%;
+    text-decoration: underline;
+    cursor: pointer;
+    text-shadow: 1px 2px 5px #000;
+  }
+
+  .num p:hover{
+    text-decoration: none;
+  }
+
+  .contact h4 p{
+    font-family: monospace;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: -120px;
+    font-size: 30px;
+    text-shadow: 1px 2px 5px #000;
+  }
+
